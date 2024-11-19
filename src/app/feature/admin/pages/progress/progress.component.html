@@ -1,1 +1,17 @@
-<p>progress works!</p>
+<div class="row">
+  <div class="col-12">
+    <app-progress-bar [percentage]="percentage"></app-progress-bar>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-6">
+    <app-button-progress-bar
+      [value]="percentage"
+      (value)="changedValue($event)"
+    ></app-button-progress-bar>
+  </div>
+  <div class="col-6">
+    <app-button-progress-bar></app-button-progress-bar>
+  </div>
+</div>

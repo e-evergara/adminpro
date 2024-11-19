@@ -11,7 +11,6 @@ import { BreadcrumbComponent } from './shared/components/breadcrumb/breadcrumb.c
 import { FooterComponent } from './shared/components/footer/footer.component';
 import { ChartsModule } from './pages/charts/charts.module';
 import { ProgressModule } from './pages/progress/progress.module';
-
 @NgModule({
   declarations: [
     AdminComponent,
